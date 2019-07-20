@@ -12,6 +12,7 @@ public class Test {
   public static void main(String[] args) throws IOException {
     String path = "F:\\file.txt\\";
 
+
     FileReader reader = new FileReader(path);
     BufferedReader br = new BufferedReader(reader);
     String line;
